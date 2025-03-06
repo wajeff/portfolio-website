@@ -1,0 +1,46 @@
+.nav{
+    width:29vw;
+    padding:0;
+}
+.image__container{
+    display: flex;
+    justify-content: right;
+    padding-right:1rem;
+}
+.image{
+    object-fit: cover;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50% ;
+}
+@keyframes moveLeft {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-15rem);
+    }
+}
+
+.nav__container{
+    width: 30vw;
+    display:flex;   
+    flex-direction: column;
+    position: fixed;
+    margin-top:23.75vh;
+    gap: 1rem;
+    animation: moveLeft linear;
+    animation-timeline: scroll();
+    animation-range: 5vh 70vh;
+    /* justify-content: flex-start; */
+
+}
+.nav__list-item{
+    display: flex;
+    list-style: none;
+    width:auto;
+    display:inline-block;
+    text-align: left;
+    margin-left: auto;
+    margin-right:2rem;
+}

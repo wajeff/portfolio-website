@@ -8,12 +8,13 @@ import 'normalize.css';
 
 import Nav from './components/Nav/Nav'
 import Hero from './components/Hero/Hero'
+import MobileNav from './components/MobileNav/MobileNav';
 
 function App() {
 
   return (
     <>
-
+      <MobileNav/>
       <Nav/>
       <Hero/>
 

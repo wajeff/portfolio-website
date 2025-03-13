@@ -27,7 +27,23 @@
 }
 @media (max-width: 873px) {
     .hero{
-        padding-right:0;
+        padding-left:1rem;
         width: 100vw;
+        margin-top:20rem;
+    }
+    .hero__list{
+        width: 60%;
+    }
+}
+
+@media (max-width: 450px) {
+    .hero{
+        padding-left:1rem;
+        margin-right:4rem;
+        width: 100vw;
+        margin-top:20rem;
+    }
+    .hero__list{
+        width:40%;
     }
 }

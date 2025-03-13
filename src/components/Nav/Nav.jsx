@@ -7,7 +7,7 @@ const Nav = () => {
         <ul className = {styles.nav__container}>
         <div className = {styles.image__container}>
           <img
-              src="../../src/assets/Hero/selfie.jpg"
+              src="../../public/assets/Hero/selfie.jpg"
               className = {styles.image}>
 
           </img>

@@ -1,5 +1,5 @@
 import styles from './Nav.module.css'
-
+import selfie from '../../../src/assets/Hero/selfie.jpg'
 const Nav = () => {
   return (
     <nav className = {styles.nav}>
@@ -7,7 +7,7 @@ const Nav = () => {
         <ul className = {styles.nav__container}>
         <div className = {styles.image__container}>
           <img
-              src="../../src/assets/Hero/selfie.jpg"
+              src={selfie}
               className = {styles.image}>
 
           </img>

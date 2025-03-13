@@ -6,3 +6,8 @@
     box-sizing: border-box;
     overflow-x: hidden;
 }
+@media (max-width: 873px) {
+    * {
+        font-size: 10px;
+    }
+}

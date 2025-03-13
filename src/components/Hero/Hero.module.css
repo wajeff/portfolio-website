@@ -25,3 +25,9 @@
     margin-top: 0px;
     overflow-y: hidden;
 }
+@media (max-width: 873px) {
+    .hero{
+        padding-right:0;
+        width: 100vw;
+    }
+}

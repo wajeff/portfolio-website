@@ -6,18 +6,39 @@
     box-sizing: border-box;
     overflow-x: hidden;
 }
-@media (max-width: 873px) {
-    * {
-        font-size: 10px;
-    }
+
+
+/* For screens with a minimum width of 450px */
+@media (min-width: 250px) {
+  html {
+    font-size: 9px; /* 1rem = 15px */
+  }
 }
-@media (max-width: 450px) {
-    * {
-        font-size: 7px;
-    }
+
+/* For screens with a minimum width of 750px */
+@media (min-width: 750px) {
+  html {
+    font-size: 16px; /* 1rem = 16px */
+  }
 }
-@media (min-width: 3840px){
-    * {
-        font-size: 45.5px;
-    }
+
+/* For screens with a minimum width of FHD (1920px) */
+@media (min-width: 1920px) {
+  html {
+    font-size: 18px; /* 1rem = 18px */
+  }
+}
+
+/* For screens with a minimum width of QHD (2560px) */
+@media (min-width: 2560px) {
+  html {
+    font-size: 20px; /* 1rem = 20px */
+  }
+}
+
+/* For screens with a minimum width of 4K (3840px) */
+@media (min-width: 3840px) {
+  html {
+    font-size: 22px; /* 1rem = 22px */
+  }
 }

@@ -16,3 +16,8 @@
         font-size: 7px;
     }
 }
+@media (min-width: 3840px){
+    * {
+        font-size: 45.5px;
+    }
+}

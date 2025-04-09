@@ -13,14 +13,14 @@
     height: 5rem;
     border-radius: 50% ;
 }
-@keyframes moveLeft {
+/* @keyframes moveLeft {
     from {
         transform: translateX(0);
     }
     to {
         transform: translateX(-15rem);
     }
-}
+} */
 
 .nav__container{
     width: 30vw;
@@ -29,9 +29,9 @@
     position: fixed;
     margin-top:23.75vh;
     gap: 1rem;
-    animation: moveLeft linear;
+    /* animation: moveLeft linear;
     animation-timeline: scroll();
-    animation-range: 5vh 70vh;
+    animation-range: 5vh 70vh; */
     /* justify-content: flex-start; */
 
 }

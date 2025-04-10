@@ -23,12 +23,13 @@
 } */
 
 .nav__container{
-    width: 30vw;
+    width:25vw;
     display:flex;   
     flex-direction: column;
     position: fixed;
     margin-top:23.75vh;
     gap: 1rem;
+
     /* animation: moveLeft linear;
     animation-timeline: scroll();
     animation-range: 5vh 70vh; */

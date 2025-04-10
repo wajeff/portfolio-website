@@ -13,30 +13,37 @@
     
 }
 
-.work__works-left{
+.work__works{
     display:flex;
     width: 50%;
+    
     /* flex-direction: column; */
 }
 .work__works-description{
     display:flex;
     flex-direction: column;
     margin-left: 1rem;
+    overflow: hidden;
 }
 .work__works-image{
     object-fit: fill;
     min-width: 25vw;
     max-width: 25vw;
+    min-height:30vh;
+    max-height: 30vh;
 }
 
 .work__works-right{
     min-width: 50vw;
     max-width: 50vw;
+    
 }
 .work__works-title{
     overflow: hidden;
+
 }
-.styles.work__works-paragraph{
+.work__works-paragraph {
     min-width: 25vw;
     max-width: 25vw;
+    min-height: 25vw;
 }

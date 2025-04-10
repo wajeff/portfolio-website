@@ -27,7 +27,8 @@ h2{
 /* For screens with a minimum width of FHD (1920px) */
 @media (min-width: 1920px) {
   html {
-    font-size: 18px; /* 1rem = 18px */
+    font-size: 18px; /* Adjust font size */
+
   }
 }
 

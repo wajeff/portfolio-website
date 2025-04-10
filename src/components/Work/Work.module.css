@@ -15,8 +15,7 @@
 
 .work__works-left{
     display:flex;
-    min-width: 50vw;
-    max-width: 50vw;
+    width: 50%;
     /* flex-direction: column; */
 }
 .work__works-description{
@@ -35,7 +34,7 @@
     max-width: 50vw;
 }
 .work__works-title{
-
+    overflow: hidden;
 }
 .styles.work__works-paragraph{
     min-width: 25vw;

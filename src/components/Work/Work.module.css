@@ -1,0 +1,16 @@
+.work{
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+    margin-left: 30vw;
+    padding-right: 5%;
+    flex-direction: column;
+}
+.work__works-left{
+    min-width: 50vw;
+    max-width: 50vw;
+}
+.work__works-right{
+    min-width: 50vw;
+    max-width: 50vw;
+}

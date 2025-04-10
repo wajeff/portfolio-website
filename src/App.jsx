@@ -9,6 +9,7 @@ import 'normalize.css';
 import Nav from './components/Nav/Nav'
 import Hero from './components/Hero/Hero'
 import MobileNav from './components/MobileNav/MobileNav';
+import Work from './components/Work/Work';
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
       <MobileNav/>
       <Nav/>
       <Hero/>
-
+      <Work/>
     </>
   )
 }

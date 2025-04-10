@@ -36,3 +36,13 @@
 
 
 }
+@media (max-width: 450px) {
+    .work{
+        padding-left:3rem;
+        margin-right:1rem;
+        width: 100vw;
+        margin-left: 0;
+        font-size:12px;
+    }
+
+}

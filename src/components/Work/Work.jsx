@@ -16,7 +16,7 @@ function Work() {
                 <section className = {styles["work__works-description"]}>
                     <h3 className = {styles["work__works-title"]}>Humanity in Music</h3>
                     <p className = {["styles.work__works-paragraph"]}>
-                    Donation website towards Humanity in Music charity.                     </p>    
+                    Donation website towards Humanity in Music charity.                      </p>    
                 </section>
             </section>
 

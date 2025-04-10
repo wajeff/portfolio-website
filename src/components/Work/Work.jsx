@@ -3,7 +3,7 @@ import styles from './Work.module.css'
 function Work() {
   return (
     <section className = {styles.work}>
-        <h2 className = {styles.work__title}>Work</h2>
+        <h2 className = {styles.work__title}>Work.</h2>
         <section className = {styles.work__container}>
             <section className={styles["work__works-left"]}>
                 <img 

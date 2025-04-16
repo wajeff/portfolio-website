@@ -1,6 +1,7 @@
 import styles from './Work.module.css'
 import humanityinmusic from '/src/assets/Work/humanity-in-music.png'
-
+import candor from '/src/assets/Work/candor.png'
+import heang from '/src/assets/Work/hair.jpg'
 function Work() {
   return (
     <section className = {styles.work} id ='Work'>
@@ -26,7 +27,7 @@ function Work() {
             <section className={styles["work__works"]}>
                 <img 
                     className = {styles["work__works-image"]}
-                    src='../../src/assets/Work/candor.png'
+                    src={candor}
                 />
                 <section className = {styles["work__works-description"]}>
                     <h3 className = {styles["work__works-title"]}>Candor Lease</h3>
@@ -42,7 +43,7 @@ function Work() {
             <section className={styles["work__works"]}>
                 <img 
                     className = {styles["work__works-image"]}
-                    src='../../src/assets/Work/hair.jpg'
+                    src={heang}
                 />
                 <section className = {styles["work__works-description"]}>
                     <h3 className = {styles["work__works-title"]}>Heang's Hair Salon</h3>

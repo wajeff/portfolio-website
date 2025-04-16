@@ -1,4 +1,5 @@
 import styles from './Work.module.css'
+import humanityinmusic from '/src/assets/Work/humanity-in-music.png'
 
 function Work() {
   return (
@@ -11,7 +12,7 @@ function Work() {
             <section className={styles["work__works"]}>
                 <img 
                     className = {styles["work__works-image"]}
-                    src='../../src/assets/Work/humanity-in-music.png'
+                    src={humanityinmusic}
                 />
                 <section className = {styles["work__works-description"]}>
                     <h3 className = {styles["work__works-title"]}>Humanity in Music</h3>

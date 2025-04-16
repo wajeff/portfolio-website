@@ -5,7 +5,7 @@
     margin-left: 30vw;
     padding-right: 5%;
     flex-direction: column;
-    margin-top:13.25rem;
+    padding-top:19.5vh;
 }
 .hero__list{
     display: flex;
@@ -40,16 +40,16 @@
 
   /* Apply delay per item */
   .hero__list-item:nth-child(1) {
-    animation-delay: 0.4s;
+    animation-delay: 0.6s;
   }
   .hero__list-item:nth-child(2) {
-    animation-delay: 0.8s;
-  }
-  .hero__list-item:nth-child(3) {
     animation-delay: 1.2s;
   }
+  .hero__list-item:nth-child(3) {
+    animation-delay: 1.8s;
+  }
   .hero__list-item:nth-child(4) {
-    animation-delay: 1.6s;
+    animation-delay: 2.4s;
   }
   @keyframes dropDown {
     to {

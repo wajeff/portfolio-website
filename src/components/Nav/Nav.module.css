@@ -1,19 +1,24 @@
 .nav {
     width: 29vw;
     padding: 0;
+    height:100vh;
+    display: inline;
 }
 
 .image__container {
     display: flex;
     justify-content: right;
     padding-right: 1rem;
+    overflow: hidden;
+    padding-top:19.5vh;
+    
 }
-
 .image {
     object-fit: cover;
     width: 5rem;
     height: 5rem;
     border-radius: 50%;
+    animation: dropBounce 1.8s ease-out forwards;
 }
 
 .nav__container {
@@ -21,8 +26,8 @@
     display: flex;   
     flex-direction: column;
     position: fixed;
-    margin-top: 23.75vh;
     gap: 1rem;
+    height:100vh;
 }
 
 /* Menu Drop Down Animation */
@@ -42,22 +47,22 @@
 }
 
 .nav__list-item:nth-child(1) {
-    animation-delay: 0.2s;
+    animation-delay: 0.3s;
 }
 .nav__list-item:nth-child(2) {
-    animation-delay: 0.4s;
-}
-.nav__list-item:nth-child(3) {
     animation-delay: 0.6s;
 }
+.nav__list-item:nth-child(3) {
+    animation-delay: 0.9s;
+}
 .nav__list-item:nth-child(4) {
-    animation-delay: 0.8s;
+    animation-delay: 1.2s;
 }
 .nav__list-item:nth-child(5) {
-    animation-delay: 1.0s;
+    animation-delay: 1.5s;
 }
 .nav__list-item:nth-child(6) {
-    animation-delay: 1.2s;
+    animation-delay: 1.8s;
 }
 
 @keyframes dropDown {
@@ -67,7 +72,29 @@
     }
 }
 
-/* New styles for active and inactive menu items */
+
+/* Self animation*/
+@keyframes dropBounce {
+    0% {
+      opacity: 0;
+      transform: translateY(-200px);
+    }
+    40% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+    65% {
+      transform: translateY(-30px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+
+
+/* Nav highlight */
+
 .nav__list-item a {
     color: grey;
     text-decoration: none;
@@ -77,6 +104,9 @@
   .nav__list-item.active a {
     color: white;
   }
+
+/* Media Queries*/
+
 @media (max-width: 750px) {
     .nav {
         display: none;

@@ -1,7 +1,7 @@
 .work{
     display: flex;
     min-height: 100vh;
-    min-width: 100vw;
+    max-width: 49%;
     margin-left: 30vw;
     padding-right: 5%;
     flex-direction: column;
@@ -9,32 +9,24 @@
 .work__title{
     overflow: hidden;
 }
-.work__container{
-    
-}
-
 .work__works{
+    gap: 20px;
     display:flex;
-    width: 50%;
     flex-direction: row;
 }
 .work__works-description{
-    margin-left: 1rem;
+    flex:1;
+    overflow: hidden;
 }
-.work__works-image{
-    object-fit: fill;
-    min-width: 25vw;
-    max-width: 25vw;
-    min-height: 30vh;
-    max-height: 30vh;
+.work__works-image {
+    flex:.25 1;
+}
+.work__works-paragraph{
+    flex:1;
+    overflow: hidden;
 }
 .work__works-title{
     overflow: hidden;
-
-}
-.work__works-paragraph {
-
-
 }
 @media (max-width: 450px) {
     .work{

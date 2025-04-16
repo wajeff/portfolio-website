@@ -1,7 +1,7 @@
 .hero{
     display: flex;
     min-height: 100vh;
-    min-width: 100vw;
+    max-width: 70vw;
     margin-left: 30vw;
     padding-right: 5%;
     flex-direction: column;
@@ -14,7 +14,6 @@
     width:50%;
     padding: 0vh 0px 0px 0px;
     margin-bottom: 1rem;
-
     
 }
 .hero__list-item{
@@ -25,9 +24,9 @@
 }
 .hero__paragraph{
     font-size: 4rem;
-    max-width: 60%;
     margin-top: 0px;
     overflow-y: hidden;
+    max-width:70%;
 }
 @media (max-width: 750px) {
     .hero{

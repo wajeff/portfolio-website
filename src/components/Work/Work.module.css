@@ -20,6 +20,7 @@
 }
 .work__works-image {
     flex:.25 1;
+    border-radius: 10%;
 }
 .work__works-paragraph{
     flex:1;

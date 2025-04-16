@@ -23,16 +23,17 @@ function Work() {
             {/*Second Section */}
 
             <section className={styles["work__works"]}>
+                <img 
+                    className = {styles["work__works-image"]}
+                    src='../../src/assets/Work/candor.png'
+                />
                 <section className = {styles["work__works-description"]}>
                     <h3 className = {styles["work__works-title"]}>Candor Lease</h3>
                     <p className={styles["work__works-paragraph"]}>
                         Full stack React App that simplies the creation of best practice Toronto rental contracts.
                     </p>    
                 </section>
-                <img 
-                    className = {styles["work__works-image"]}
-                    src='../../src/assets/Work/candor.png'
-                />
+               
             </section>
 
             {/*Third Section */}

@@ -6,6 +6,7 @@
     font-family: inter;
     box-sizing: border-box;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 h2{
  font-size: 4rem;

@@ -1,7 +1,7 @@
 import styles from './Hero.module.css'
 const Hero = () => {
   return (
-    <section className = {styles.hero}>
+    <section className = {styles.hero} id = 'Intro'>
        <ul className = {styles['hero__list']}>
         <li className={styles['hero__list-item']}>For Anyone</li>
         <li className={styles['hero__list-item']}>Recruiters</li>

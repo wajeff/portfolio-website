@@ -2,7 +2,7 @@ import styles from './Work.module.css'
 
 function Work() {
   return (
-    <section className = {styles.work}>
+    <section className = {styles.work} id ='Work'>
         <h2 className = {styles.work__title}>Work.</h2>
         <section className = {styles.work__container}>
 

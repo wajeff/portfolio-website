@@ -11,7 +11,7 @@ const sections = [
 ];
 
 const Nav = () => {
-  const [activeId, setActiveId] = useState('');
+  const [activeId, setActiveId] = useState('Intro');
 
   useEffect(() => {
     const handleScroll = () => {

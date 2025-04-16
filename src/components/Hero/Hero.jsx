@@ -6,7 +6,6 @@ const Hero = () => {
         <li className={styles['hero__list-item']}>For Anyone</li>
         <li className={styles['hero__list-item']}>Recruiters</li>
         <li className={styles['hero__list-item']}>Engineers</li>
-
        </ul>
        <h1 className = {styles.hero__paragraph}>Hello there, I’m a designer and full-stack developer who cares about making aesthetic and functional tech.</h1>
   

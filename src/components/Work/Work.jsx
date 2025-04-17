@@ -7,7 +7,7 @@ function Work() {
     <section className = {styles.work} id ='Work'>
         <h2 className = {styles.work__title}>Work.</h2>
         <section className = {styles.work__container}>
-
+            
             {/*First Section */}
 
             <section className={styles["work__works"]}>

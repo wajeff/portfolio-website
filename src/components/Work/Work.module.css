@@ -1,10 +1,8 @@
 .work{
-    display: flex;
     min-height: 100vh;
-    max-width: 49%;
+    max-width: 70vw;
     margin-left: 30vw;
     padding-right: 5%;
-    flex-direction: column;
 }
 .work__title{
     overflow: hidden;
@@ -18,14 +16,17 @@
 .work__works-description{
     flex:1;
     overflow: hidden;
+      max-width:70%;
+    
 }
 .work__works-image {
-    flex:.25 1;
+    flex:.3 1;
     border-radius: 10%;
 }
 .work__works-paragraph{
     flex:1;
     overflow: hidden;
+
 }
 .work__works-title{
     overflow: hidden;
@@ -40,3 +41,13 @@
     }
 
 }
+
+@media (max-width: 750px) {
+    .work{
+        padding-left:3rem;
+        width: 100vw;
+        margin-left: 0;
+    }
+}
+
+

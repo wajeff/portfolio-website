@@ -3,7 +3,7 @@
     min-height: 100vh;
     max-width: 70vw;
     margin-left: 30vw;
-    padding-right: 5%;
+    padding-right: 1%;
     flex-direction: column;
     padding-top:19.5vh;
 }
@@ -18,13 +18,12 @@
 }
 .hero__list-item{
     opacity: 0;
-
     flex: 1 1 100%;
     font-size:.9rem;
     list-style: none;
     overflow:hidden;
 }
-.hero__paragraph{
+.hero__header{
     font-size: 4rem;
     margin-top: 0px;
     overflow-y: hidden;
@@ -60,11 +59,11 @@
 @media (max-width: 750px) {
     .hero{
         padding-left:3rem;
-        width: 100vw;
+        min-width: 100vw;
         margin-left: 0;
     }
     .hero__paragraph{
-        min-width:85%;
+        width: 80%;
     }
     .hero__list{
         width: 60%;

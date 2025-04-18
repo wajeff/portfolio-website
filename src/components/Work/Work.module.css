@@ -6,6 +6,7 @@
 }
 .work__title{
     overflow: hidden;
+    font-size:4rem;
 }
 .work__container{
     max-width:70%;
@@ -25,6 +26,7 @@
 .work__works-image {
     flex:.5 1;
     border-radius: 10%;
+    aspect-ratio: 1 / 1;
 }
 .work__works-paragraph{
     flex:1;
@@ -44,16 +46,20 @@
         margin-right:1rem;
         min-width: 100vw;
         margin-left: 0;
-        font-size:12px;
+        font-size:10px;
     }
     .work__title{
         font-size: 2.25rem;
     }
     .work__works-image {
-        flex:1 1;
+        flex:.5 1;
         border-radius: 10%;
     }
-
+    .work__works-description{
+        flex:.5;
+        overflow: hidden;
+        
+    }
 }
 
 @media (max-width: 750px) {

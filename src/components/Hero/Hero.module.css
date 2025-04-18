@@ -88,32 +88,37 @@ animation-delay: 2.4s;
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 550px) {
     .hero{
         padding-left:3rem;
-        margin-right:1rem;
         width: 100vw;
         margin-left: 0;
         font-size:12px;
+        
     }
     .hero__paragraph{
         min-width:85%;
     }
     .hero__list{
-        width:80%;
+        min-width:60%;
+        max-width: 70%;
+        display:flex;
+        justify-content: space-between; 
+        gap:.5rem;
     }
-}
-
-/*Smaller Screen Responsiveness*/
-
-@media (max-width: 450px) {
     .hero__header{
         font-size: 2.25rem;
     }
     .hero__list-item{
         font-size:.7rem;
+        flex: 0 1 auto;   
+
     }
 }
+
+/*Smaller Screen Responsiveness*/
+
+
 
 
 @media (min-width: 3440px) and (max-width: 3440px) and (aspect-ratio: 3440/1440) {

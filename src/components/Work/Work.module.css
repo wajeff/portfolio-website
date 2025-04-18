@@ -40,7 +40,7 @@
 /*Smaller Screen Responsiveness*/
 
 
-@media (max-width: 450px) {
+@media (max-width: 550px) {
     .work{
         padding-left:3rem;
         margin-right:1rem;

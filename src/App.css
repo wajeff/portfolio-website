@@ -8,8 +8,11 @@
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
-h2{
- font-size: 4rem;
+
+@media (max-width: 450px) {
+    html{
+        font-size: 10px;
+    }
 }
 @media (max-width: 750px) {
     html{

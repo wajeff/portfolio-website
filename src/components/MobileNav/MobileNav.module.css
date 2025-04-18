@@ -1,7 +1,47 @@
-@media (max-width: 873px) {
-    
+.mobilenav {
+    display: none;
+  }
+  
+@media (max-width: 550px) {
+.mobilenav {
+    display: flex;
+    width:100%;
+    margin-top:5%;
+    padding: 0 5%;
+    background: transparent;
+    position: fixed;
+    gap: 6px; /* Spacing between the two lines */
+    z-index: 1;
 }
-
-.mobilenav{
-    display:none;
+.mobilvenav__image{
+    object-fit: contain;
+    width:8%;
+    border-radius:50%;
 }
+.mobilenav__line-container{
+    background: transparent;
+    width: 100%;
+    display:flex;
+    gap:.2rem;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+.mobilenav__line {
+    width: 30px;
+    height: 4px;
+    background: #ffffff;
+    border-radius: 2px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    /* transform-origin: center; */
+}
+  
+.line1Active {
+    transform: rotate(45deg) translate(1px, 6px);
+    }
+  
+.line2Active {
+    transform: rotate(-45deg) translate(1px, -6px);
+}
+}
+  

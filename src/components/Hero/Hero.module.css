@@ -29,13 +29,30 @@
     overflow-y: hidden;
     max-width:70%;
 }
+
+/* Animations */
+
+@keyframes slideUp {
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+.hero__header, .hero__list{
+  position: relative;
+  transform: translateY(50vh);
+  opacity: 0;
+  animation: slideUp 1s ease-out forwards;
+}
 .hero__list-item{
     opacity: 0;
     transform: translateX(-20px);
     animation: dropDown 0.4s forwards ease;
     animation-fill-mode: forwards;
-
   }
+
+
 
 /* Apply delay per item */
 .hero__list-item:nth-child(1) {

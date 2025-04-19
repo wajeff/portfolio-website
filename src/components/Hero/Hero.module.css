@@ -22,6 +22,19 @@
     font-size:.9rem;
     list-style: none;
     overflow:hidden;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.active {
+    color: #ffffff;
+}
+.inactive {
+    color: grey;
+}
+
+.hero__list-item:hover{
+    color:#ffffff;
 }
 .hero__header{
     font-size: 4rem;

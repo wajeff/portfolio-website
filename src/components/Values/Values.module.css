@@ -31,6 +31,7 @@
 }
 .values__paragraph{
     flex:.5;
+    overflow: hidden;
 }
 @media (max-width: 550px){
     .values{

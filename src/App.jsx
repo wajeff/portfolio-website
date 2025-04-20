@@ -10,6 +10,7 @@ import Nav from './components/Nav/Nav'
 import Hero from './components/Hero/Hero'
 import MobileNav from './components/MobileNav/MobileNav';
 import Work from './components/Work/Work';
+import Values from './components/Values/Values';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Nav/>
       <Hero/>
       <Work/>
+      <Values/>
     </>
   )
 }

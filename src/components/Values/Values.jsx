@@ -12,14 +12,14 @@ const Values = () => {
         </section>
         
         <section className={styles[`values__paragraph-container--right`]}>
-          <section className={styles[`values__paragraph`]}>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora aperiam cum, ullam alias veniam accusantium, impedit debitis eveniet facere deserunt earum? Neque ratione aliquid nobis commodi doloribus vero id recusandae!</p>
-          </section>
+          <p className={styles[`values__paragraph`]}>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora aperiam cum, ullam alias veniam accusantium, impedit debitis eveniet facere deserunt earum? Neque ratione aliquid nobis commodi doloribus vero id recusandae!
+          </p>
         </section>
         <section className={styles[`values__paragraph-container--left`]}>
-          <section className={styles[`values__paragraph`]}>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora aperiam cum, ullam alias veniam accusantium, impedit debitis eveniet facere deserunt earum? Neque ratione aliquid nobis commodi doloribus vero id recusandae!</p>
-          </section>
+          <p className={styles[`values__paragraph`]}>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos saepe fugiat sunt expedita corporis necessitatibus earum pariatur itaque dicta cupiditate. Doloremque maxime quidem laborum laudantium quibusdam aliquam, placeat odit iusto.
+          </p>
         </section>
         
     </section>

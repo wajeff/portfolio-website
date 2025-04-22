@@ -48,8 +48,11 @@
         margin-left: 0;
         font-size:10px;
     }
+    .work__container{
+        max-width:95%;
+    }
     .work__title{
-        font-size: 2.25rem;
+        font-size: var(--mobile-header-text);
     }
     .work__works-image {
         flex:.5 1;
@@ -58,6 +61,7 @@
     .work__works-description{
         flex:.5;
         overflow: hidden;
+        font-size:var(--mobile-paragraph-text);
         
     }
 }

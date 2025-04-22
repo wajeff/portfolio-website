@@ -93,7 +93,7 @@ animation-delay: 2.4s;
         min-width: 100vw;
         margin-left: 0;
     }
-    .hero__paragraph{
+    .hero__header{
         width: 80%;
     }
     .hero__list{
@@ -105,12 +105,12 @@ animation-delay: 2.4s;
     .hero{
         padding-left:3rem;
         width: 100vw;
-        margin-left: 0;
-        font-size:12px;
+        margin-left: 0; 
         
     }
-    .hero__paragraph{
-        min-width:85%;
+    .hero__header{
+        min-width:95%;
+
     }
     .hero__list{
         min-width:60%;
@@ -120,7 +120,7 @@ animation-delay: 2.4s;
         gap:.5rem;
     }
     .hero__header{
-        font-size: 2.25rem;
+        font-size: var(--mobile-header-text);
     }
     .hero__list-item{
         font-size:.7rem;

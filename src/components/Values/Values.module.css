@@ -12,7 +12,7 @@
 }
 
 .values__title{
-    font-size:4rem;
+    font-size: var(--desktop-header-text);
     overflow: hidden;
     margin:0 0;
 }

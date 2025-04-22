@@ -110,7 +110,7 @@ animation-delay: 2.4s;
     }
     .hero__header{
         min-width:95%;
-
+        max-width: 95%;
     }
     .hero__list{
         min-width:60%;

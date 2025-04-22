@@ -1,7 +1,7 @@
 .values{
     display: flex;
     min-height: 100vh;
-    max-width: 65vw;
+    max-width: 70vw;
     margin-left: 30vw;
     padding-right: 1%;
     flex-direction: column;
@@ -40,10 +40,17 @@
 @media (max-width: 550px){
     .values{
         margin-left: 3rem;
-        max-width: 95%;
+        max-width: 95vw;
     }
     .values__title{
         font-size:var(--mobile-header-text);
+        max-width:95%;
+    }
+    .values__paragraph-container--left{
+        max-width:95%;
+    }
+    .values__paragraph-container--right{
+        max-width:95%;
     }
     
 }

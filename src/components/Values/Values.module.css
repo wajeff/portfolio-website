@@ -20,7 +20,6 @@
 .values__paragraph-quote{
     width: 100%;
     overflow:hidden;
-
 }
 .values__lineBreak{
     display:block;
@@ -36,7 +35,6 @@
 .values__paragraph-container--left{
     display: flex;
     width: 100%;
-
     justify-content: flex-start;
     padding-bottom:5rem;
 }
@@ -61,5 +59,9 @@
     .values__paragraph-container--right{
         max-width:95%;
     }
-    
+    .values__paragraph {
+        width: 100%;
+        overflow: hidden;
+        word-break: break-word;
+      }
 }

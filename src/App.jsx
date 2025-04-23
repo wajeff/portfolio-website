@@ -20,7 +20,7 @@ function App() {
     const timer = setTimeout(() => {
       document.documentElement.style.overflow = '';
       document.body.style.overflow = '';
-    }, 2000);
+    }, 2700);
   
     return () => clearTimeout(timer);
   }, []);

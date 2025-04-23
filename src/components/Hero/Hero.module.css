@@ -1,7 +1,6 @@
 .hero{
     display: flex;
     min-height: 100vh;
-    max-width: 70vw;
     margin-left: 30vw;
     padding-right: 1%;
     flex-direction: column;
@@ -38,9 +37,10 @@
 }
 .hero__header{
     font-size: var(--desktop-header-text-size);
+    font-weight: 400;
     margin-top: 0px;
     overflow-y: hidden;
-    max-width:70%;
+    max-width:80%;
 }
 
 /* Animations */

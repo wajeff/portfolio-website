@@ -7,12 +7,14 @@
 .work__title{
     overflow: hidden;
     font-size:var(--desktop-header-text-size);
+    font-weight:400;
 }
 .work__container{
     max-width:70%;
 }
 .work__works{
     gap: 20px;
+    
     display:flex;
     flex-direction: row;
     margin-bottom: 1rem;
@@ -31,9 +33,11 @@
 .work__works-paragraph{
     flex:1;
     overflow: hidden;
+    font-weight:100;
 
 }
 .work__works-title{
+    font-weight:400;
     overflow: hidden;
 }
 

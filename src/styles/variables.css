@@ -1,7 +1,7 @@
 :root {
     /* Desktop (16:9) */
 
-    --desktop-header-text: 4rem;
+    --desktop-header-text-size: 4rem;
 
     /* Mobile */
     --mobile-paragraph-text: .9rem;

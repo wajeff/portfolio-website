@@ -37,7 +37,7 @@
     color:#ffffff;
 }
 .hero__header{
-    font-size: var(--desktop-header-text);
+    font-size: var(--desktop-header-text-size);
     margin-top: 0px;
     overflow-y: hidden;
     max-width:70%;

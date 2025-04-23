@@ -6,7 +6,7 @@
 }
 .work__title{
     overflow: hidden;
-    font-size:var(--desktop-header-text);;
+    font-size:var(--desktop-header-text-size);
 }
 .work__container{
     max-width:70%;

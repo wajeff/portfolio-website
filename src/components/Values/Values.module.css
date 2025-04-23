@@ -12,18 +12,27 @@
 }
 
 .values__title{
-    font-size: var(--desktop-header-text);
+    font-size: var(--desktop-header-text-size);
     overflow: hidden;
     margin:0 0;
 }
 
+.values__paragraph-quote{
+    width: 100%;
+    overflow:hidden;
+
+}
+.values__lineBreak{
+    display:block;
+    height: 1rem;
+}
 .values__paragraph-container--right {
     display: flex;
     width: 100%;
-    justify-content: flex-end;
-    padding-bottom:5rem;
-
-}
+    flex-direction: column;
+    align-items: flex-end; 
+    padding-bottom: 5rem;
+  }
 .values__paragraph-container--left{
     display: flex;
     width: 100%;

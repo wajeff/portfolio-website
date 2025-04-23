@@ -13,7 +13,6 @@
     width:50%;
     padding: 0vh 0px 0px 0px;
     margin-bottom: 1rem;
-    
 }
 .hero__list-item{
     opacity: 0;
@@ -110,9 +109,10 @@ animation-delay: 4.6s;
 
 @media (max-width: 550px) {
     .hero{
-        padding-left:3rem;
+        padding-left:1rem;
         width: 100vw;
         margin-left: 0; 
+        padding-right: 1rem;
         
     }
     .hero__header{

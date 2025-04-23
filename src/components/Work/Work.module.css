@@ -44,15 +44,16 @@
 
 @media (max-width: 550px) {
     .work{
-        padding-left:3rem;
-        margin-right:1rem;
+        margin:0 1rem 0 1rem;
         min-width: 100vw;
         margin-left: 0;
     }
     .work__container{
-        max-width:95%;
+        margin:0 1rem 0 1rem;
+        max-width:100%;
     }
     .work__title{
+        margin:0 1rem 0 1rem;
         font-size: var(--mobile-header-text);
     }
     .work__works-image {
@@ -62,13 +63,24 @@
     .work__works-description{
         flex:.5;
         overflow: hidden;
+        
+    }
+    .work__works-title{
+        font-size: 1.3rem;
+    }
+
+    .work__works-paragraph{
+        flex:1;
+        overflow: hidden;
+        font-weight:300;
         font-size:var(--mobile-paragraph-text);
+    
     }
 }
 
 @media (max-width: 750px) {
     .work{
-        padding-left:3rem;
+        margin-left: 3rem;
         margin-left: 0;
     }
 }

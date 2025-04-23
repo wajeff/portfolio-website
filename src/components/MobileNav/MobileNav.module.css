@@ -7,7 +7,7 @@
     display: flex;
     width:100%;
     margin-top:5%;
-    padding: 0 5%;
+    padding: 0 1rem;
     background: transparent;
     position: fixed;
     gap: 6px; /* Spacing between the two lines */

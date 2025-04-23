@@ -1,16 +1,19 @@
-.nav {
-    width: 29vw;
-    padding: 0;
+.nav__container {
+    width: 25vw;
+    margin-left:5vw;
+    display: flex;   
+    flex-direction: column;
+    position: fixed;
+    gap: .4rem;
     height:100vh;
-    display: inline;
 }
 
 .image__container {
     display: flex;
-    justify-content: right;
     padding-right: 1rem;
     overflow: hidden;
     padding-top:19.5vh;
+    padding-bottom: 2vh;
     
 }
 .image {
@@ -21,22 +24,16 @@
     animation: dropBounce 1.8s ease-out forwards;
 }
 
-.nav__container {
-    width: 25vw;
-    display: flex;   
-    flex-direction: column;
-    position: fixed;
-    gap: 1rem;
-    height:100vh;
-}
+
 
 .nav__list-item {
     display: flex;
+    background: transparent;
+    font-size:.95rem;
     list-style: none;
     width: auto;
     display: inline-block;
     text-align: left;
-    margin-left: auto;
     margin-right: 2rem;
     overflow: hidden;
     opacity:0;

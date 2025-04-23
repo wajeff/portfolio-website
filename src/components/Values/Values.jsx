@@ -4,7 +4,6 @@ import styles from './Values.module.css'
 const Values = () => {
   return (
     <section className={styles.values} id ='Values'>
-          <h2 className={styles.values__title}>Values:</h2>
           <h2 className={styles.values__title}>Simple.</h2>
           <h2 className={styles.values__title}>Intuitive.</h2>
           <h2 className={styles.values__title}>Useful.</h2>

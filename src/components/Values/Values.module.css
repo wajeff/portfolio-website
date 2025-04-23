@@ -69,3 +69,14 @@
         word-break: break-word;
       }
 }
+
+/* Mobile Devices in Landscape Mode */
+
+@media only screen and (max-width: 1000px) and (max-height: 600px) and (orientation: landscape) {
+    .values{
+        margin-bottom: 100px;
+    }
+    .values__title{
+        font-size: 3rem;
+    }
+}

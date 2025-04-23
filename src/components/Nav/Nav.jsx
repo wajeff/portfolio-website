@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import styles from './Nav.module.css';
-import selfie from '../../../src/assets/Hero/selfie.jpg';
+import selfie from '../../../src/assets/Nav/selfie.jpg';
 
 const sections = [
   { id: 'Intro', label: 'Intro' },

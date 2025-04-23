@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import styles from './MobileNav.module.css';
-import selfie from '/src/assets/Hero/selfie.jpg'
+import selfie from '/src/assets/Nav/selfie.jpg'
 const MobileNav = () => {
   const [isOpen, setIsOpen] = useState(false);
 

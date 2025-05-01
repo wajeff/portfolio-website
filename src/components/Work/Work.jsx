@@ -13,6 +13,7 @@ function Work() {
                 <img 
                     className = {styles["work__works-image"]}
                     src={humanityinmusic}
+                    alt = 'Man listening to music - Humanity in Music'
                 />
                 <section className = {styles["work__works-description"]}>
                     <h3 className = {styles["work__works-title"]}>Humanity in Music</h3>
@@ -27,6 +28,7 @@ function Work() {
                 <img 
                     className = {styles["work__works-image"]}
                     src={candor}
+                    alt = 'City of Toronto skyline - Candor Lease'
                 />
                 <section className = {styles["work__works-description"]}>
                     <h3 className = {styles["work__works-title"]}>Candor Lease</h3>
@@ -43,6 +45,7 @@ function Work() {
                 <img 
                     className = {styles["work__works-image"]}
                     src={heang}
+                    alt = "Woman smiling with hair flowing - Heang's hair salon"
                 />
                 <section className = {styles["work__works-description"]}>
                     <h3 className = {styles["work__works-title"]}>Heang's Hair Salon</h3>

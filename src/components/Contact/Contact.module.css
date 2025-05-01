@@ -1,6 +1,6 @@
 .contact{
 
-  min-height: 100vh;
+  height: 40vh;
   max-width: 70vw;
   margin-left: 30vw;
   overflow: hidden;
@@ -41,6 +41,19 @@
   background-color: rgba(255,255,255,0) ;
   animation: pulse 3s cubic-bezier(0.1, 0.5, 0.6, 1) infinite;
 }
+.contact__image-container{
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+}
+img{
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+  background-color: #000000;
+ 
+}
+
 
 @keyframes pulse{
   0%{

@@ -14,17 +14,3 @@ const Landing = () =>{
         )
 }
 export default Landing;
-/*const [show, setShow] = useState(true);
-
-  useEffect(() => {
-    const timer = setTimeout(() => setShow(false), 2000);
-    return () => clearTimeout(timer);
-  }, []);
-
-  return show ? (
-    <div className={styles.landing}>
-        <img className={styles.landing__image} src='../src/assets/Landing/name.gif'>
-
-        </img>
-    </div>
-  ) : null; */

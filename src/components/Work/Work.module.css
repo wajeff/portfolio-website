@@ -11,6 +11,7 @@
 }
 .work__container{
     max-width:70%;
+    margin-bottom: 20%;
 }
 .work__works{
     gap: 20px;
@@ -24,8 +25,8 @@
     
 }
 .work__works-image {
-    flex:.5 1;
-    border-radius: 10%;
+    flex:.5;
+    border-radius: 3%;
     aspect-ratio: 1 / 1;
 }
 .work__works-paragraph{

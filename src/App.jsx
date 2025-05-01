@@ -10,6 +10,8 @@ import MobileNav from './components/MobileNav/MobileNav';
 import Work from './components/Work/Work';
 import Values from './components/Values/Values';
 import Landing from './components/Landing/Landing'
+import Contact from './components/Contact/Contact'
+
 import './styles/variables.css';
 
 function App() {
@@ -32,6 +34,7 @@ function App() {
       <Hero />
       <Work />
       <Values />
+      <Contact />
     </>
   );
 }

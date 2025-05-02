@@ -14,8 +14,10 @@ const Contact = () => {
         </div>I am currently exploring new positions.</p>
       </div>
       <div className = {styles[`contact__images-container`]}>
-        <div className = {styles[`contact__image-container`]}><img alt = 'LinkedIn logo' src={linkedin}></img></div>
-        <div className = {styles[`contact__image-container`]}><img alt = 'Github logo' src={github}></img></div>
+        <a href='https://www.linkedin.com/in/wajeff/' rel="noopener noreferrer">
+          <div className = {styles[`contact__image-container`]}><img alt = 'LinkedIn logo, link to my LinkedIn' src={linkedin}></img></div>
+        </a>
+        <a href='https://www.github.com/wajeff/' rel="noopener noreferrer"> <div className = {styles[`contact__image-container`]}><img alt = 'Github logo, link to my Github' src={github}></img></div></a>
       </div>
      
     </section>

@@ -10,11 +10,12 @@ function Work() {
             {/*First Section */}
 
             <section className={styles["work__works"]}>
+                <a href = "https://humanityinmusic.netlify.app/" rel="noopener noreferrer"className = {styles["work__works-image"]}>
                 <img 
-                    className = {styles["work__works-image"]}
+                    
                     src={humanityinmusic}
-                    alt = 'Man listening to music - Humanity in Music'
-                />
+                    alt = 'Man listening to music - Humanity in Music, link to Github repo'
+                /></a>
                 <section className = {styles["work__works-description"]}>
                     <h3 className = {styles["work__works-title"]}>Humanity in Music</h3>
                     <p className={styles["work__works-paragraph"]}>
@@ -25,11 +26,12 @@ function Work() {
             {/*Second Section */}
 
             <section className={styles["work__works"]}>
+                <a href ="https://github.com/wajeff/heangs-hair-salon" rel="noopener noreferrer"className = {styles["work__works-image"]}>
                 <img 
-                    className = {styles["work__works-image"]}
+
                     src={candor}
-                    alt = 'City of Toronto skyline - Candor Lease'
-                />
+                    alt = 'City of Toronto skyline - Candor Lease, link to Github repo'
+                /></a>
                 <section className = {styles["work__works-description"]}>
                     <h3 className = {styles["work__works-title"]}>Candor Lease</h3>
                     <p className={styles["work__works-paragraph"]}>
@@ -42,11 +44,12 @@ function Work() {
             {/*Third Section */}
 
             <section className={styles["work__works"]}>
+                <a href ="https://github.com/wajeff/candor" rel="noopener noreferrer"className = {styles["work__works-image"]}>
                 <img 
                     className = {styles["work__works-image"]}
                     src={heang}
-                    alt = "Woman smiling with hair flowing - Heang's hair salon"
-                />
+                    alt = "Woman smiling with hair flowing - Heang's hair salon, link to Github repo"
+                /></a>
                 <section className = {styles["work__works-description"]}>
                     <h3 className = {styles["work__works-title"]}>Heang's Hair Salon</h3>
                     <p className={styles["work__works-paragraph"]}>

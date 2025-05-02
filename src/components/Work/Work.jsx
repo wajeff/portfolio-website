@@ -50,7 +50,7 @@ function Work() {
                 <section className = {styles["work__works-description"]}>
                     <h3 className = {styles["work__works-title"]}>Heang's Hair Salon</h3>
                     <p className={styles["work__works-paragraph"]}>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aliquid aut voluptas cumque itaque sdfsdfsd
+                        Front end downtown Chinatown hair salon project using SCSS and purely vanilla html/js.
                     </p>    
                 </section>
             </section>

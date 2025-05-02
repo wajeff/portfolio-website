@@ -1,5 +1,4 @@
 .contact{
-
   height: 40vh;
   max-width: 70vw;
   margin-left: 30vw;
@@ -52,7 +51,7 @@
   width: 100px;
   overflow: hidden;
   margin-left:-8px;
-  z-index:1000;
+  z-index:0;
 }
 img{
   height: 100%;
@@ -62,7 +61,10 @@ img{
  
 }
 
-
+.contact__images-container{
+  display:flex;
+  gap: 1rem;
+}
 @keyframes pulse{
   0%{
     background-color: rgba(58, 175, 64, 0.724);
@@ -75,4 +77,33 @@ img{
   100%{
 
   }
+}
+
+/* Mobile Media Queries */
+
+@media (max-width: 550px) {
+  .contact{
+    width: 100vw;
+    margin-left: 0; 
+    padding-right: 1rem;
+    padding-left:1rem;
+      
+  }
+  .contact__circle-dot{
+    margin-left: 250px;
+    margin-top: 4px;
+  }
+  .contact__circle-animation{
+    margin-left: 250px;
+    margin-top: 4px;
+  }
+}
+
+
+@media (min-width: 551px) and (max-width: 750px) {
+  .contact {
+      margin-left: 3rem;;
+
+  }
+
 }

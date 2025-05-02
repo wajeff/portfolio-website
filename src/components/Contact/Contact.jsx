@@ -1,5 +1,6 @@
 import styles from './Contact.module.css'
 import linkedin from '/src/assets/Contact/linkedin.png'
+import github from '/src/assets/Contact/github.png'
 
 const Contact = () => {
   return (
@@ -11,7 +12,10 @@ const Contact = () => {
           <div className = {styles[`contact__circle-animation`]}></div>
           <div className ={styles[`contact__circle-dot`]}></div>
         </div>I am currently exploring new positions.</p>
+      </div>
+      <div className = {styles[`contact__images-container`]}>
         <div className = {styles[`contact__image-container`]}><img alt = 'LinkedIn logo' src={linkedin}></img></div>
+        <div className = {styles[`contact__image-container`]}><img alt = 'Github logo' src={github}></img></div>
       </div>
      
     </section>

@@ -79,11 +79,12 @@
     }
 }
 
-@media (max-width: 750px) {
-    .work{
-        margin-left: 3rem;
-        margin-left: 0;
+@media (min-width: 551px) and (max-width: 750px) {
+    .work {
+        margin-left: 3rem;;
+        max-width: 100%;
     }
+
 }
 
 /* Mobile Devices in Landscape Mode */

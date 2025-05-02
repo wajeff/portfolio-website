@@ -110,9 +110,10 @@ animation-delay: 4.6s;
 @media (max-width: 550px) {
     .hero{
         padding-left:1rem;
+        padding-right:1rem;
         width: 100vw;
         margin-left: 0; 
-        padding-right: 1rem;
+        padding-right: 0;
         
     }
     .hero__header{

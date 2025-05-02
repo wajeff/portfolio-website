@@ -74,6 +74,11 @@
         word-break: break-word;
       }
 }
+@media (min-width: 551px) and (max-width: 750px) {
+    .values {
+        margin-left: 3rem;
+    }
+}
 
 /* Mobile Devices in Landscape Mode */
 

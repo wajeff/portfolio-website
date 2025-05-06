@@ -6,12 +6,31 @@
 .mobilenav {
     display: flex;
     width:100%;
-    margin-top:5%;
-    padding: 0 1rem;
+    padding-top:2.5%;
+    padding: 2.5% 1rem;
     background: transparent;
     position: fixed;
     gap: 6px; /* Spacing between the two lines */
     z-index: 1;
+}
+.mobilenav__list{
+    margin-top: 10%;
+    padding-top:35vh;
+    position:fixed;
+    width: 100%;
+    background-color: black;
+    height: 100%;
+    opacity: 0;
+    z-index: 900;
+
+}
+.mobilenav__list-active{
+    opacity: 1;
+    display: block;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.mobilenav__item{
+    overflow: hidden;
 }
 .mobilvenav__image{
     object-fit: contain;
@@ -26,6 +45,10 @@
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
+}
+.mobilenav__line-active{
+    z-index:1000;
+    transform: rotate(45deg) translate(1px, 6px);
 }
 .mobilenav__line {
     width: 30px;

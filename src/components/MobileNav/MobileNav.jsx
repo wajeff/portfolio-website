@@ -5,30 +5,44 @@ const MobileNav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav
-      className={`${styles.mobilenav} ${isOpen ? styles.active : ''}`}
-      onClick={() => setIsOpen(prev => !prev)}
+    <nav className={`styles.mobilenav__fullpage`} 
     >
+      <ul
+      className={`${styles.mobilenav__list} 
+      ${isOpen ? styles[`mobilenav__list-active`] : ''}`}
+      >
+        <li className ={styles.mobilenav__item}>
+          Test
+        </li>
+      </ul>
     
-    <img className = {styles.mobilvenav__image}src={selfie}/>
+      <section
+        className={`${styles.mobilenav} 
+        ${isOpen ? styles.active : ''}`}
+      >
+     
+        <img className = {styles.mobilvenav__image}src={selfie}/>
 
-    <section className={styles[`mobilenav__line-container`]}>
+        <section
+        className={`${styles[`mobilenav__line-container`]}`}
+        onClick={() => setIsOpen(prev => !prev)}
+        >
+          <span
+            className={`${styles.mobilenav__line} ${
+            isOpen ? styles[`line1Active`] : ''}
+            }`}
+          />
+          <span
+            className={`${styles.mobilenav__line} ${
+            isOpen ? styles[`line2Active`] : ''}
+            }`}
+          />
 
-    <span
-      className={`${styles.mobilenav__line} ${
-      isOpen ? styles.line1Active : ''
-      }`}
-    />
-    <span
-      className={`${styles.mobilenav__line} ${
-      isOpen ? styles.line2Active : ''
-    }`}
-    />
 
-
-    </section>
+        </section>
     
-  </nav>
+      </section>
+    </nav>
   );
 };
 

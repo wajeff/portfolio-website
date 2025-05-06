@@ -7,10 +7,17 @@ const MobileNav = () => {
   return (
     <nav className={`styles.mobilenav__fullpage`} 
     >
+      <input type="checkbox" id="nav-toggle" className={styles.mobilenav__checkbox} />
       <ul
       className={`${styles.mobilenav__list} 
       ${isOpen ? styles[`mobilenav__list-active`] : ''}`}
       >
+        <li className ={styles.mobilenav__item}>
+          Test
+        </li>
+        <li className ={styles.mobilenav__item}>
+          Test
+        </li>
         <li className ={styles.mobilenav__item}>
           Test
         </li>
@@ -22,22 +29,26 @@ const MobileNav = () => {
       >
      
         <img className = {styles.mobilvenav__image}src={selfie}/>
+        
+        
 
         <section
         className={`${styles[`mobilenav__line-container`]}`}
         onClick={() => setIsOpen(prev => !prev)}
         >
-          <span
+          <label
+            htmlFor="nav-toggle"
             className={`${styles.mobilenav__line} ${
             isOpen ? styles[`line1Active`] : ''}
             }`}
           />
-          <span
+          <label
+            htmlFor="nav-toggle"
             className={`${styles.mobilenav__line} ${
             isOpen ? styles[`line2Active`] : ''}
             }`}
           />
-
+    
 
         </section>
     

@@ -43,9 +43,7 @@ const MobileNav = () => {
       <ul
       className={`${styles.mobilenav__list} 
       ${isOpen ? styles[`mobilenav__list-active`] : ''}`}
-      
       >
-        
         {sections.map((section) => (
           <li
             key={section.id}

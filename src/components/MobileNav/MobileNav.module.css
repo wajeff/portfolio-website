@@ -23,20 +23,19 @@
 .mobilenav {
     display: flex;
     justify-content: space-between;
-    width:100%;
-    padding-top:2.5%;
+    width: 100%;
     padding: 2.5% 1rem;
     background: transparent;
     position: fixed;
     gap: 6px; 
-    z-index: 1;
+    z-index: 1000;
 } 
 
 
 .mobilenav__list{
-    margin-top: 10%;
     padding-top:35vh;
     position:fixed;
+    margin:0;
     width: 100%;
     background-color: black;
     height: 100%;

@@ -25,6 +25,7 @@
 @media (max-width: 550px) {
 .mobilenav {
     display: flex;
+    justify-content: space-between;
     width:100%;
     padding-top:2.5%;
     padding: 2.5% 1rem;
@@ -36,10 +37,6 @@
 .mobilenav__list {
     display: block;
 
-  }
-  
-  .mobilenav__item {
-    display: block;
   }
   
   .mobilenav__line,
@@ -60,6 +57,7 @@
     opacity: 0;
     z-index: 900;
     transition: opacity 0.25s ease, transform 0.25s ease;
+
 }
 
 .mobilenav__checkbox {
@@ -85,6 +83,10 @@
   .mobilenav__checkbox:checked ~ .mobilenav__list li:nth-child(3) {
     animation-delay: 0.9s;
   }
+  .mobilenav__checkbox:checked ~ .mobilenav__list li:nth-child(4) {
+    animation-delay: 1.2s;
+  }
+
 @keyframes dropDown {
   from {
     opacity: 0;
@@ -95,14 +97,27 @@
     transform: translateY(0);
   }
 }
-.mobilenav__item {
+.mobilenav__item{
+    display: block;
     opacity: 0;
     transform: translateY(-10px);
     animation: none; 
     visibility: hidden;
-
     overflow:hidden;
-  }
+    padding-bottom: 1.5rem;
+    font-size:1.5rem;
+    
+}
+.mobilenav__item a{
+   text-decoration: none; 
+   color:grey;
+   z-index: 1000;
+}
+
+.mobilenav__item.active a{
+    color: white;
+    z-index: 1000;
+}
 
 .mobilvenav__image{
     object-fit: contain;
@@ -111,7 +126,6 @@
 }
 .mobilenav__line-container{
     background: transparent;
-    width: 100%;
     display:flex;
     gap:.2rem;
     flex-direction: column;

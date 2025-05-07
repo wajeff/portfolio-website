@@ -4,7 +4,7 @@ import github from '/src/assets/Contact/github.png'
 
 const Contact = () => {
   return (
-    <section className={styles.contact}>
+    <section className={styles.contact} id='Contact'>
       <h2 className={styles.contact__title}>Contact.</h2>
       
       <div className = {styles[`contact__container`]}>

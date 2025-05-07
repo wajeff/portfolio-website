@@ -3,21 +3,18 @@
   }
   
 .mobilenav__list {
-    display: none;
+    display: block; 
     opacity: 0;
     pointer-events: none;
 }
   
 .mobilenav__item {
-    display: none;
+    display: block; 
     opacity: 0;
     visibility: hidden;
 }
   
-.mobilenav__line,
-.mobilenav__line-container {
-    display: none;
-}
+
   .mobilenav__checkbox {
     display: none;
 }
@@ -33,19 +30,8 @@
     position: fixed;
     gap: 6px; 
     z-index: 1;
-}
-.mobilenav__list {
-    display: block;
+} 
 
-  }
-  
-  .mobilenav__line,
-  .mobilenav__line-container {
-    display: block;
-  }
-  .mobilenav__checkbox {
-    display: block;
-}
 
 .mobilenav__list{
     margin-top: 10%;
@@ -57,7 +43,6 @@
     opacity: 0;
     z-index: 900;
     transition: opacity 0.25s ease, transform 0.25s ease;
-
 }
 
 .mobilenav__checkbox {
@@ -67,6 +52,7 @@
 .mobilenav__list-active{
     opacity: 1;
     display: block;
+    pointer-events: auto;
     transition: opacity 0.25s ease, transform 0.25s ease;
 }
 .mobilenav__checkbox:checked + .mobilenav__list .mobilenav__item {
@@ -97,23 +83,21 @@
     transform: translateY(0);
   }
 }
-.mobilenav__item{
+.mobilenav__item {
     display: block;
     opacity: 0;
     transform: translateY(-10px);
-    animation: none; 
-    visibility: hidden;
-    overflow:hidden;
+    animation: none;
     padding-bottom: 1.5rem;
-    font-size:1.5rem;
-    
-}
-.mobilenav__item a{
-   text-decoration: none; 
-   color:grey;
-   z-index: 1000;
+    font-size: 1.5rem;
+    z-index: 1000;
 }
 
+.mobilenav__item a {
+    text-decoration: none;
+    color: grey;
+    z-index: 1000;
+ }
 .mobilenav__item.active a{
     color: white;
     z-index: 1000;

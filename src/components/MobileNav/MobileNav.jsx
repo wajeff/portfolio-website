@@ -39,7 +39,7 @@ const MobileNav = () => {
   return (
     <nav 
     >
-      <input type="checkbox" id="nav-toggle" className={styles.mobilenav__checkbox} />
+      <input type="checkbox" id="nav-toggle" className={styles.mobilenav__checkbox} checked={isOpen} />
       <ul
       className={`${styles.mobilenav__list} 
       ${isOpen ? styles[`mobilenav__list-active`] : ''}`}
